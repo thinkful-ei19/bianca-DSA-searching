@@ -73,6 +73,13 @@ export default class Textbox extends React.Component {
                     <input onChange={(event)=> (binarySearch(arr, event.target.value))}/>
                     <p>Number: {this.state.input},</p>
                     <p>Iterations: {this.state.count}</p>
+
+                    <br></br>
+                    <br></br>
+                    <p>Find a book:
+                        To find a book in the library with the Dewey Decimal index I would use a Binary search to cut the database in half each time depending on where the book is. This algorithm would be logarithmic because we would not have to traverse the whole dataset and we would be eliminating half of the data with each loop.
+
+                    </p>
                 </div>
             </form>
           );
